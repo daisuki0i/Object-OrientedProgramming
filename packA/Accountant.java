@@ -1,6 +1,6 @@
 package packA;
 
-public class Accountant extends Programmer {
+public class Accountant extends EmpTmp {
     private static String companyName = "berk barn jamkad";
     private int experience;
     private String specialty;
@@ -40,6 +40,7 @@ public class Accountant extends Programmer {
         return String.format("I am an accountant at %s" , companyName);
     }
 
+    @Override
     public void sayHi(){
         System.out.println(tellProfit());
     }

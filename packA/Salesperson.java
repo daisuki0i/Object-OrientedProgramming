@@ -1,5 +1,5 @@
 package packA;
-public class Salesperson extends Programmer {
+public class Salesperson extends EmpTmp {
     private int target;
 
                                                                                                                                                                                                                      
@@ -14,11 +14,11 @@ public class Salesperson extends Programmer {
         setExperience(exp);
     }
 
-    public void settTarget(int target){
+    public void setTarget(int target){
         this.target = target;
     }
 
-    public int gettTarget(){
+    public int getTarget(){
         return target;
     }
 
@@ -26,12 +26,13 @@ public class Salesperson extends Programmer {
         salary *= 1.1;
     }
 
+    @Override
     public void setSalary(int incresedAmount){
         salary += incresedAmount;
     }
-
+    
     public String  makeQuotation(){
-        return "";
+        return String.format("Dear value customer, %d is my best offer.", (int)(Math.random()* target));
     }
 
     public String toString(){

@@ -26,6 +26,8 @@ public class Lab3Polymorphism {
             str = "";
             
             if (e instanceof Programmer){
+                // Programmer p = (Programmer)e;
+                // str = p.coding();
                 str = ((Programmer)e).coding();
             }
 

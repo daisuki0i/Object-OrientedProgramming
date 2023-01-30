@@ -1,3 +1,4 @@
+package Lab2;
 import packA.*;
 public class Lab2Inheritance {
 

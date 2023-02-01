@@ -1,21 +1,21 @@
-package packA;
+package Lab4.packA;
 
-public class EmpTmp {
+public class Lab3EmpTmp {
     protected String name;
     protected int salary;
     protected int experience;
     
-    public EmpTmp(String n, int exp, int sal){
+    public Lab3EmpTmp(String n, int exp, int sal){
         name = n;
         experience = exp;
         salary = sal;
     }
 
-    public EmpTmp(String n){
+    public Lab3EmpTmp(String n){
         name = n;
     }
 
-    public EmpTmp(){
+    public Lab3EmpTmp(){
 
     }
 

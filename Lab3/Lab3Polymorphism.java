@@ -1,7 +1,7 @@
 package Lab3;
 import java.util.ArrayList;
+import Lab3.packA.*;
 
-import packA.*;
 public class Lab3Polymorphism {
     
     public static void main(String[] args) {

@@ -1,16 +1,21 @@
-package packA;
+package Lab4.packA;
 
-public class Programmer extends EmpTmp {
+import java.util.ArrayList;
+
+public class Programmer extends Employee {
+private ArrayList<String> skills = new ArrayList<>();
 
 public Programmer(String n, int exp, int sal){
     name = n;
     experience = exp;
     salary = sal;
+    skills.add("solidity");
+    skills.add("typescript");
 }
 
 @Override
 public void sayHi(){
-    System.out.println("hi from" + name);
+    System.out.printf("Coding in %s%n", skills);
 }
 
 
@@ -19,6 +24,6 @@ public String toString(){
 }
 
 public String coding(){
-    return "";
+    return "I LOVE COMSCI";
 }
 }

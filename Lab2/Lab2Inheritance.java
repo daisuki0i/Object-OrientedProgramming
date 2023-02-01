@@ -1,5 +1,6 @@
 package Lab2;
-import packA.*;
+import Lab2.packA.*;
+
 public class Lab2Inheritance {
 
     public static void main(String[] args) {
